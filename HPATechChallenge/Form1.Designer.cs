@@ -42,7 +42,7 @@
             this.userInt1.Name = "userInt1";
             this.userInt1.Size = new System.Drawing.Size(100, 20);
             this.userInt1.TabIndex = 0;
-            this.userInt1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.userInt1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // userInt2
             // 
@@ -50,7 +50,7 @@
             this.userInt2.Name = "userInt2";
             this.userInt2.Size = new System.Drawing.Size(100, 20);
             this.userInt2.TabIndex = 1;
-            this.userInt2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.userInt2.TextChanged += new System.EventHandler(this.TextBox2_TextChanged);
             // 
             // mathOperations
             // 
@@ -65,7 +65,7 @@
             this.mathOperations.Size = new System.Drawing.Size(121, 21);
             this.mathOperations.TabIndex = 2;
             this.mathOperations.Text = "Select An Operation";
-            this.mathOperations.SelectedIndexChanged += new System.EventHandler(this.mathResult_Click);
+            this.mathOperations.SelectedIndexChanged += new System.EventHandler(this.MathResult_Click);
             // 
             // equalsButton
             // 
@@ -75,7 +75,7 @@
             this.equalsButton.TabIndex = 3;
             this.equalsButton.Text = "=";
             this.equalsButton.UseVisualStyleBackColor = true;
-            this.equalsButton.Click += new System.EventHandler(this.equalsButton_Click);
+            this.equalsButton.Click += new System.EventHandler(this.EqualsButton_Click);
             // 
             // mathResult
             // 
@@ -85,7 +85,7 @@
             this.mathResult.Size = new System.Drawing.Size(0, 13);
             this.mathResult.TabIndex = 4;
             this.mathResult.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.mathResult.Click += new System.EventHandler(this.mathResult_Click);
+            this.mathResult.Click += new System.EventHandler(this.MathResult_Click);
             // 
             // userResult
             // 
@@ -99,7 +99,7 @@
             this.userResult.TabIndex = 5;
             this.userResult.Text = "0";
             this.userResult.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.userResult.Click += new System.EventHandler(this.label1_Click);
+            this.userResult.Click += new System.EventHandler(this.Label1_Click);
             // 
             // Form1
             // 

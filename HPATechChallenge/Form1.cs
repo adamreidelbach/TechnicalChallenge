@@ -117,36 +117,37 @@ namespace HPATechChallenge
             Console.WriteLine("Last result = " + lastResult);
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             
         }
 
-        private void mathResult_Click(object sender, EventArgs e)
+        private void TextBox2_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void MathResult_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void equalsButton_Click(object sender, EventArgs e)
+        private void EqualsButton_Click(object sender, EventArgs e)
         {
             string operand1 = this.userInt1.Text;
             string operand2 = this.userInt2.Text;
-            double opr1, opr2;
+            double opr1;
+            double opr2;
             double.TryParse(operand1, out opr1);
             double.TryParse(operand2, out opr2);
 
