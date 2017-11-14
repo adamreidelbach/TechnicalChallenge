@@ -108,7 +108,7 @@ namespace ConsoleApp1
             var resultHandle = FindWindowEx(windowHandle, IntPtr.Zero, "WindowsForms10.STATIC.app.0.141b42a_r12_ad1", "");
             StringBuilder sb = new StringBuilder(1000);
             var resultValue = SendMessage(resultHandle, WM_GETTEXT, sb.Capacity, sb);
-            ]
+            
         }
     }
 }
