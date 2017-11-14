@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HPATechChallenge", "HPATechChallenge\HPATechChallenge.csproj", "{3B94816C-3C75-4B25-A139-78280E2A57A2}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{ED47FBD1-FD0D-4BB6-ACDD-96D3552CEBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorAutomation", "ConsoleApp1\CalculatorAutomation.csproj", "{368D0468-1885-4868-866A-28EEE291070D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,12 @@ Global
 		{3B94816C-3C75-4B25-A139-78280E2A57A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B94816C-3C75-4B25-A139-78280E2A57A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B94816C-3C75-4B25-A139-78280E2A57A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED47FBD1-FD0D-4BB6-ACDD-96D3552CEBE4}.Debug|Any CPU.ActiveCfg = Debug
+		{ED47FBD1-FD0D-4BB6-ACDD-96D3552CEBE4}.Release|Any CPU.ActiveCfg = Release
+		{368D0468-1885-4868-866A-28EEE291070D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{368D0468-1885-4868-866A-28EEE291070D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{368D0468-1885-4868-866A-28EEE291070D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{368D0468-1885-4868-866A-28EEE291070D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

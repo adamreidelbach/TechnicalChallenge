@@ -97,7 +97,7 @@
             this.userResult.Name = "userResult";
             this.userResult.Size = new System.Drawing.Size(13, 13);
             this.userResult.TabIndex = 5;
-            this.userResult.Text = "0";
+            this.userResult.Text = "4";
             this.userResult.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.userResult.Click += new System.EventHandler(this.Label1_Click);
             // 
